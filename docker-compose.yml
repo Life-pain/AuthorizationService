@@ -1,0 +1,8 @@
+version: '1'
+
+services:
+  app:
+    image: 'atrz_srv:1.0'
+    build: ./
+    ports:
+      - '8080:8080'
